@@ -9,7 +9,7 @@ int main(){
         for(y=1;y<10;y++)
 
         {
-        tab[x][y]=x*y;
+        tabuada[x][y]=x*y;
         printf("%d x %d = %d\t",y,x,tabuada[x][y]);
         }
     }
