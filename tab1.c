@@ -11,8 +11,7 @@ int main(){
         for(y=1;y<10;y++)
 
         {
-        tab[x][y]=x*y;
-        printf("%d x %d = %d\t",y,x,tab[x][y]);
+        printf("%d x %d = %d\t",y,x,tab[x][y]=x*y);
         }
     }
 
